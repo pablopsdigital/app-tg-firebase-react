@@ -7,7 +7,7 @@ import { RegisterPage } from "./pages/RegisterPage/RegisterPage";
 
 export const App = () => {
   return (
-    <div className="flex h-screen text-white bg-slate-300">
+    <div className="flex h-screen text-black bg-slate-300">
       <AuthUserProvider>
         <Routes>
           <Route path="/" element={<HomePage />} />
